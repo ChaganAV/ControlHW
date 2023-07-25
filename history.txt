@@ -1,0 +1,1000 @@
+  431  ls -l
+  432  echo Dockerfile
+  433  cat > Dockerfile
+  434  nano Dockerfile
+  435  sudo docker build -t nginx_php .
+  436  ls -al && echo "OK"
+  437  ls -l
+  438  cat test
+  439  cat echo 'test' > test
+  440  echo 'test' > test
+  441  cat test
+  442  ls -l
+  443  ls
+  444  ls -l
+  445  mkdir testdir
+  446  move test ./testdir
+  447  rm test
+  448  ls -l
+  449  cd testdir
+  450  ls
+  451  $USER
+  452  echo $USER
+  453  for count in {01..3}; do echo $USER done;
+  454  for count in {01..3}; do echo $USER; done
+  455  cat > print100
+  456  cat print100
+  457  ls -l
+  458  nano print100
+  459  ls -l
+  460  chmod u+x print100
+  461  ls -l
+  462  cat print100
+  463  ./print100
+  464  print100
+  465  bash ./print100
+  466  nano print100
+  467  cat print100
+  468  ./print100
+  469  nano print100
+  470  ./print100
+  471  nano print100
+  472  ./print100
+  473  cat print100
+  474  cut
+  475  cut ./
+  476  cut .
+  477  cut --help
+  478  cut -c 'p'
+  479  ls -l
+  480  cd ~
+  481  ls -l
+  482  ls -l | cut -b 1-20
+  483  ls -l | cut -b 1-10
+  484  sort --help
+  485  ls -l | cut -b 1-10 | sort
+  486  ls -l | cut -b 1-10 | sort | uniq
+  487  ls -l
+  488  cd testdir
+  489  echo "lsdsdf" > test.bak
+  490  cat test.bak
+  491  ls -la > test2.tmp
+  492  ls > test3.backup
+  493  cat test3.backup
+  494  cat test2.tmp
+  495  nano clearDir
+  496  bash ./cleardir
+  497  cd ~
+  498  ls -l
+  499  cd tesdir
+  500  cd testdir
+  501  ls -l
+  502  mv clearDir ~
+  503  ls -l
+  504  cd ~
+  505  ls -l
+  506  bash ./clearDir testdir
+  507  cat clearDir
+  508  nano clearDir
+  509  bash ./clearDir testdir
+  510  nano clearDir
+  511  bash ./clearDir testdir
+  512  nano clearDir
+  513  bash ./clearDir testdir
+  514  nano clearDir
+  515  bash ./clearDir testdir
+  516  rm --help
+  517  nano clearDir
+  518  ls -l
+  519  cd testdir
+  520  ls -l | grep *.bak
+  521  bash ./clearDir testdir
+  522  cd ~
+  523  bash ./clearDir testdir
+  524  nano clearDir
+  525  bash ./clearDir testdir
+  526  nano clearDir
+  527  bash ./clearDir testdir
+  528  ls -l
+  529  nano clearDir
+  530  bash ./clearDir testdir
+  531  nano clearDir
+  532  bash ./clearDir testdir
+  533  ls -l
+  534  cd testdir 
+  535  ls -l
+  536  cd ~
+  537  cd testdir 
+  538  cd ~
+  539  grep testdir/*.bak
+  540  echo grep testdir/*.bak
+  541  grep testdir/*
+  542  ls -l
+  543  cd testdir
+  544  grep *.bak
+  545  grep --help
+  546  ls -l | grep *.bak
+  547  ls -l | grep *.bak *.tmp
+  548  ls -l
+  549  ls -l | grep *.tmp
+  550  ls -l | grep *.bak *.tmp
+  551  cat clearDir
+  552  cd ~
+  553  cd testdir
+  554  ls -l
+  555  for f in {'*.bak','*.tmp'}; do ls -l | grep $f; done
+  556  cd ~
+  557  nano clearDir
+  558  bash ./clearDir testdir
+  559  nano clearDir
+  560  bash ./clearDir testdir
+  561  nano clearDir
+  562  bash ./clearDir testdir
+  563  nano clearDir
+  564  bash ./clearDir testdir
+  565  nano clearDir
+  566  bash ./clearDir testdir
+  567  ls -l
+  568  nano clearDir
+  569  bash ./clearDir testdir
+  570  cat clearDir
+  571  bash ./clearDir ~/clearDir/testdir
+  572  nano clearDir
+  573  bash ./clearDir ~/clearDir/testdir
+  574  nano clearDir
+  575  cd cat '~/clearDir/' testdir
+  576  cd | cat '~/clearDir/' testdir
+  577  cd | cat ~/clearDir testdir
+  578  nano clearDir
+  579  bash ./clearDir
+  580  nano clearDir
+  581  bash ./clearDir
+  582  nano clearDir
+  583  bash ./clearDir
+  584  nano clearDir
+  585  bash ./clearDir
+  586  cat clearDir
+  587  nano clearDir
+  588  bash ./clearDir
+  589  nano clearDir
+  590  bash ./clearDir
+  591  nano clearDir
+  592  bash ./clearDir ~/cleardir/testdir/
+  593  nano clearDir
+  594  bash ./clearDir ~/cleardir/testdir/
+  595  bash ./clearDir ~/cleardir/testdir
+  596  ls -l
+  597  bash ./clearDir ~/testdir/
+  598  nano clearDir
+  599  bash ./clearDir ~/testdir/
+  600  nano clearDir
+  601  bash ./clearDir ~/testdir/
+  602  nano clearDir
+  603  ls textdir
+  604  ls ./testdir
+  605  ls -l ./testdir
+  606  nano clearDir
+  607  bash ./clearDir ~/testdir/
+  608  bash ./clearDir ~/testdir
+  609  nano clearDir
+  610  bash ./clearDir ~/testdir/
+  611  bash ./clearDir ~/testdir
+  612  ls -l ./testdir
+  613  nano cleardir
+  614  nano clearir
+  615  nano clearDir
+  616  bash ./clearDir ~/testdir/
+  617  nano clearDir
+  618  bash ./clearDir ~/testdir/
+  619  nano clearDir
+  620  bash ./clearDir ~/testdir/
+  621  nano clearDir
+  622  bash ./clearDir ~/testdir/
+  623  nano clearDir
+  624  bash ./clearDir ~/testdir/
+  625  nano clearDir
+  626  bash ./clearDir ~/testdir/
+  627  for f in {'*.bak','*.tmp'}; do ls -l | grep $f; done
+  628  for f in {'*.bak','*.tmp'}; do ls -l ./testdir | grep $f; done
+  629  for f in {'*.bak','*.tmp'}; do ls -l ./testdir | grep ./testdir$f; done
+  630  for f in {'*.bak','*.tmp'}; do ls -l ./testdir; done
+  631  cd ./testdir
+  632  for f in {'*.bak','*.tmp'}; do ls -l | grep $f; done
+  633  cd ~
+  634  for f in {'*.bak','*.tmp'}; do ls -l ./testdir | grep ./testdir/$f; done
+  635  for f in {'*.bak','*.tmp'}; do ls -l ./testdir; done
+  636  for f in {'*.bak','*.tmp'}; do ls -l ./testdir/; done
+  637  for f in {'*.bak','*.tmp'}; do ls -l ./testdir | grep *.bak; done
+  638  grep --help
+  639  cat clearDir
+  640  exit
+  641  ls
+  642  mkdir GB
+  643  chroot GB /bin/bash
+  644  sudo chroot GB /bin/bash
+  645  cd GB
+  646  ls
+  647  mkdir GB/bib
+  648  mkdir bin
+  649  ls
+  650  cp /bin/bash GB/bin
+  651  cp /bin/bash bin
+  652  ls
+  653  cd bin
+  654  ls
+  655  cd .
+  656  cd ..
+  657  sudo chroot GB
+  658  ldd /bin/bash
+  659  mkdir GB/bin/lib
+  660  mkdir GB/bin/lib64
+  661  ls
+  662  ls GB
+  663  rm GB/bin/lib
+  664  move GB/bin/lib GB
+  665  rm -h
+  666  rm --help
+  667  rm -r GB/bin/lib
+  668  rm -r GB/bin/lib64
+  669  mkdir GB/lib
+  670  mkdir GB/lib64
+  671  ls GB
+  672  ldd /bin/bash
+  673  cp /bin/lib/linux-vdso.so.l GB/lib
+  674  sudo cp /bin/lib/linux-vdso.so.l GB/lib
+  675  sudo cp /lib/linux-vdso.so.l GB/lib
+  676  sudo cp /lib/linux-vdso.so.1 GB/lib
+  677  sudo cp /lib/x86_64-linux-gnu/libtinfo.so.6 GB/lib
+  678  sudo cp /lib/x86_64-linux-gnu/libc.so.6 GB/lib
+  679  sudo cp /lib64/ld-linux-x86-64.so.2 GB/lib
+  680  chroot GB /bin/bash
+  681  sudo chroot GB /bin/bash
+  682  ls GB
+  683  ls GB/bin
+  684  sudo chroot GB /bin/bash
+  685  ls GB/lib
+  686  ls GB/lib64
+  687  sudo cp /lib64/ld-linux-x86-64.so.2 GB/lib64
+  688  ls GB/lib64
+  689  sudo chroot GB /bin/bash
+  690  ip netns list
+  691  ip netns help
+  692  sudo ip netns add testns
+  693  ip netns list
+  694  ip a
+  695  ip netns exec testns bash
+  696  sudo ip netns exec testns bash
+  697  exit
+  698  ls
+  699  cd GB
+  700  ls
+  701  ip
+  702  ip netns help
+  703  ip a
+  704  ip netns list
+  705  ip a
+  706  ip netns exec testns bash
+  707  sudo ip netns exec testns bash
+  708  clear
+  709  cd ..
+  710  history
+  711  exit
+  712  ls
+  713  ls GB
+  714  sudo chroot GB
+  715  clear
+  716  mkdir HW-1
+  717  sudo chroot HW-1
+  718  ldd /bin/bash
+  719  mkdir HW-1/bin
+  720  mkdir HW-1/lib
+  721  mkdir HW-1/lib64
+  722  cp /lib/x86_64-linux-gnu/libtinfo.so.6 HW-1/lib
+  723  cp  /lib/x86_64-linux-gnu/libc.so.6 HW-1/lib
+  724  cp  /lib64/ld-linux-x86-64.so.2 HW-1/lib64
+  725  sudo chroot HW-1
+  726  cp /bin/bash HW-1/bin
+  727  sudo chroot HW-1
+  728  sudo chroot HW-1 /bin/basu
+  729  sudo chroot HW-1 /bin/bash
+  730  ldd /bin/ls
+  731  clear
+  732  ip a
+  733  clear
+  734  ip netns list
+  735  ip netns add hw-1
+  736  sudo ip netns add hw-1
+  737  ip netsn list
+  738  ip netns list
+  739  ip netns exec hw-1 bash
+  740  sudo ip netns exec hw-1 bash
+  741  sudo lxc storage list
+  742  sudo lxs storage list
+  743  sudo lxc-create -n test12 -t ubuntu
+  744  lxc-start -n test12
+  745  lxc-attach -n test12
+  746  sudo lxc-attach -n test12
+  747  sudo lxc-start -n test12
+  748  sudo lxc-stop -n test12
+  749  sudo lxc-attach -n test12
+  750  clear
+  751  sudo lxc-start -n test12
+  752  nano /var/lib/lxc/test12/config
+  753  sudo nano /var/lib/lxc/test12/config
+  754  lxc-stop -n test12
+  755  sudo lxc-stop -n test12
+  756  sudo lxc-start -n test12
+  757  sudo lxc-attach -n test12
+  758  sudo lxc-attach -n ubuntu
+  759  sudo nano /var/lib/lxc/test12/config
+  760  sudo lxc-start -n test12
+  761  sudo lxc-stop -n test12
+  762  clear
+  763  sudo lxc-start -n test12
+  764  sudo lxc-attach -n test12
+  765  sudo lxc-stop -n test12
+  766  sudo nano /var/lib/lxc/test12/config
+  767  sudo lxc-start -n test12
+  768  sudo nano /var/lib/lxc/test12/config
+  769  sudo lxc-start -n test12
+  770  sudo nano /var/lib/lxc/test12/config
+  771  sudo lxc-start -n test12
+  772  sudo nano /var/lib/lxc/test12/config
+  773  sudo lxc-start -n test12
+  774  free -m
+  775  sudo lxc-attach -n test12
+  776  exit
+  777  vi /etc/group
+  778  ls -l $(which firefox)
+  779  ls -l ~/
+  780  ls -l /dev/
+  781  clear
+  782  sudo lxc storage list
+  783  sudo apt-get update
+  784  sudo apt-get install lxc lxc-templates
+  785  lxc storage list
+  786  sudo lxc storage list
+  787  sudo snap install lxd
+  788  sudo lxc storage list
+  789  unshare --fork --pid --mount-proc bash
+  790  sudo unshare --fork --pid --mount-proc bash
+  791  clear
+  792  sudo unshare --fork --pid --mount-proc bash
+  793  exit
+  794  lxs storage list
+  795  sudo lxc storage list
+  796  lxc network list
+  797  ip a
+  798  clear
+  799  sudo lxc-start -n test12
+  800  lxc-attach -n test12
+  801  sudo lxc-attach -n test12
+  802  sudo lxc-stop -n test12
+  803  sudo vi /var/lib/lxc/test12/config
+  804  sudo lxc-start -n test12
+  805  sudo lxc-start -n test1234
+  806  sudo lxc-attach -n test12
+  807  sudo lxc-attach -n test1234
+  808  sudo lxc-stop -n test12
+  809  sudo vi /var/lib/lxc/test12/config
+  810  sudo lxc-start -n test12
+  811  sudo lxc-attach -n test12
+  812  exit
+  813  sudo apt-get update
+  814  sudo apt-get install ca-certificates curl gnupg
+  815  sudo install -m 0755 -d /etc/apt/keyrings
+  816  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  817  sudo chmod a+r /etc/apt/keyrings/docker.gpg
+  818  echo   "deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  819    "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  820  sudo apt-get update
+  821  sudo apt-get install ./docker-desktop-4.21.1-amd64.deb
+  822  sudo apt-get update
+  823  sudo apt-get install ./docker-desktop-<version>-<arch>.deb
+  824  sudo apt-get install ca-certifacates curl gnupg lsb-release
+  825  sudo apt-get update
+  826  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+  827  sudo apt remote docker-desktop
+  828  sudo apt remove docker-desktop
+  829  sudo apt-get update
+  830  sudo apt-get install ca-certificates curl gnupg
+  831  sudo install -m 0755 -d /etc/apt/keyrings
+  832  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  833  sudo chmod a+r /etc/apt/keyrings/docker.gpg
+  834  echo   "deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  835    "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  836  sudo apt-get update
+  837  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+  838  sudo docker ru hello-world
+  839  sudo docker run hello-world
+  840  sudo docker --help
+  841  sudo docker --version
+  842  sudo docker search debian
+  843  sudo docker images
+  844  sudo docker -aq
+  845  sudo docker images -aq
+  846  sudo docker --publish 8080:80 nginx
+  847  clear
+  848  sudo docker run --publish 8080:80 nginx
+  849  sudo docker run --publish 8081:80 nginx
+  850  exit
+  851  docker run -it ubuntu:22.10 bash
+  852  sudo docker run -it ubuntu:22.10 bash
+  853  docker imeges
+  854  sudo docker images
+  855  sudo docker ps -a
+  856  clear
+  857  sudo docker ps -a
+  858  sudo docker images
+  859  sudo docker run ubuntu bash
+  860  sudo docker ps -a
+  861  sudo docker start e46552ecdfd1
+  862  sudo docker ps -a
+  863  sudo docker exec -it tender_payne bash
+  864  clear
+  865  sudo docker run -it -h GB --name gb-test ubuntu:22.10
+  866  sudo docker images
+  867  sudo docker ps -a
+  868  sudo docker stop e46552ecdfd1
+  869  sudo docker ps -a
+  870  sudo docker start gb-test
+  871  decker exec -it gb-test bash
+  872  sudo docker exec -it gb-test bash
+  873  sudo docker --help
+  874  sudo docker ps -a
+  875  sudo docker db-test
+  876  sudo docker stop db-test
+  877  sudo docker stop gb-test
+  878  sudo docker ps -a
+  879  sudo docker rmi fb10d42b752c
+  880  sudo docker rm fb10d42b752c
+  881  sudo docker ps -a
+  882  sudo docker rm 5824499f4910
+  883  sudo docker ps -a
+  884  sudo docker rm $(docker ps -a -q)
+  885  sudo docker ps -a -q
+  886  sudo docker rm $(docker ps -a -q)
+  887  sudo docker rmi $(docker ps -a -q)
+  888  sudo docker rmi $(docker images -q)
+  889  sudo docker rmi $(docker images -q) --force
+  890  sudo docker ps -a
+  891  sudo docker rmi $(docker images -aq)
+  892  sudo docker ps -a
+  893  sudo docker rm 8b4da54e53ae,48ba3ac81ec7
+  894  sudo docker rm 8b4da54e53ae
+  895  sudo docker rm 48ba3ac81ec7
+  896  sudo docker rm 48ba3ac81ec74
+  897  sudo docker rm 48ba3ac81ec7
+  898  sudo docker ps -a
+  899  sudo docker rm 5ef78c3b9f00
+  900  sudo docker rm 509bbee8694d
+  901  sudo docker rm e46552ecdfd1
+  902  sudo docker ps -a
+  903  sudo docker start gb-test
+  904  clear
+  905  sudo docker ps -a
+  906  sudo docker exec -it gb-test bash
+  907  rm -rf /test
+  908  lsl
+  909  ls -l
+  910  mkdir test
+  911  ls -l
+  912  mkdir /test/folder
+  913  mkdir test/folder
+  914  sudo docker run -it -h GB --name gb-test -v /test/folder:/otherway ubuntu:22.10
+  915  sudo docker ps -a
+  916  sudo docker rm $(docker ps -a -q) --force
+  917  sudo docker rm abff4273400a
+  918  sudo docker stop abff4273400a
+  919  sudo docker rm abff4273400a
+  920  sudo docker ps -a
+  921  sudo docker run -it -h GB --name gb-test -v /test/folder:/otherway ubuntu:22.10
+  922  ls
+  923  cd test
+  924  sl
+  925  ls
+  926  cd folder
+  927  ls
+  928  cd ..
+  929  cd /
+  930  ls
+  931  cd test
+  932  ls
+  933  cd folder
+  934  ls
+  935  cat passwords.txt
+  936  echo 'uraaaaa-a-a-a-a' >> passwords.txt
+  937  sudo echo 'uraaaaa-a-a-a-a' >> passwords.txt
+  938  su
+  939  su 
+  940  cd ~
+  941  ls
+  942  ls /testdir
+  943  ls testdir
+  944  rm -rf testdir
+  945  ls
+  946  ls test
+  947  ls test/folder
+  948  sudo docker ps -a
+  949  sudo docker run -it -h GB --name gb-test2 -v test/folder:/test ubuntu:22.10
+  950  sudo docker run -it -h GB --name gb-test2 -v ~test/folder:/test ubuntu:22.10
+  951  sudo docker run -it -h GB --name gb-test2 -v /test/folder:/test ubuntu:22.10
+  952  ls
+  953  ls test
+  954  ls test/folder
+  955  ls /test/foler
+  956  ls /test/folder
+  957  cat /test/folder/test3.txt
+  958  sudo docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=secret -d mysql:8.0.31
+  959  sudo docker run --name myphp -d --link some-mysql:db -p 8085:80 phpmyadmin/phpmyadmin
+  960  history
+  961  exit
+  962  sudo docker images
+  963  sudo docker ps -a
+  964  clear
+  965  sudo docker ps -a
+  966  mysql
+  967  some-mysql
+  968  sudo docker exec some-mysql -h local
+  969  sudo docker exec -it some-mysql
+  970  sudo docker 
+  971  sudo docker exec -it some-mysql mysql -h localhost -P 3306 --protocol=tcp -u roop
+  972  sudo docker logs some-mysql
+  973  clear
+  974  sudo docker logs some-mysql
+  975  clear
+  976  sudo docker exec -it some-mysql mysql -uroot -p
+  977  exit
+  978  mkdir dockerfiles
+  979  ls -a
+  980  ls -l
+  981  nano Dockerfile
+  982  cd dockerfiles
+  983  nano Dockerfile
+  984  cd ..
+  985  nano Dockerfile
+  986  cd dockerfiles
+  987  nano Dockerfile
+  988  docker build -t cowsaytest .
+  989  sudo docker build -t cowsaytest .
+  990  nano Dockerfile
+  991  sudo docker build -t cowsaytest .
+  992  docker run cowsaytest
+  993  sudo docker run cowsaytest
+  994  nano Dockerfile
+  995  sudo docker build -t cowsaytest .
+  996  sudo docker run cowsaytest
+  997  sudo docker images
+  998  sudo docker run -it cowsaytest bash
+  999  cowsay "Hi"
+ 1000  sudo docker ru cowsaytest "hi"
+ 1001  sudo docker run cowsaytest "hi"
+ 1002  sudo docker run cowsaytest "hi" bash
+ 1003  sudo docker run cowsaytest bash
+ 1004  sudo docker ps -al
+ 1005  sudo docker images
+ 1006  sudo docker ps -a
+ 1007  clear
+ 1008  sudo docker ps -a
+ 1009  sudo docker run -it cowsaytest cowsay Hello
+ 1010  sudo docker rm $(docker ps -a -q) --force
+ 1011  sudo docker start -ai cowsaytest
+ 1012  sudo docker ps -al
+ 1013  sudo docker start -ai unruffled_nash
+ 1014  sudo docker run -it cowsaytest cowsay Hello world
+ 1015  clear
+ 1016  sudo docker build -t myimage .
+ 1017  sudo docker run -it --name mycontainer myimage
+ 1018  sudo docker start -ai mycontainer
+ 1019  exit
+ 1020  ls -al
+ 1021  ls -l
+ 1022  ls Dockerfile -l
+ 1023  ls dockerfiles -l
+ 1024  cd dockerfiles
+ 1025  ls
+ 1026  wget https://github.com/ChaganAV/GeoAdams.git
+ 1027  ls -l
+ 1028  cd GeoAdams.git
+ 1029  wget https://github.com/ChaganAV/GeoTree.jar
+ 1030  wget https://github.com/ChaganAV/GeoAdams.git/GeoTree.jar
+ 1031  wget https://github.com/ChaganAV/GeoAdams/tree/master/GeoTree.jar
+ 1032  ls -l
+ 1033  java -jar GeoTree.jar
+ 1034  sudo apt-get update
+ 1035  sudo apt install java
+ 1036  sudo apt install -help
+ 1037  sudo apt install
+ 1038  cd ..
+ 1039  wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.deb
+ 1040  ls -l
+ 1041  sudo apt install jdk-17_linux-x64_bin.deb
+ 1042  sudo apt install ./jdk-17_linux-x64_bin.deb
+ 1043  su
+ 1044  exit
+ 1045  su
+ 1046  ls -l
+ 1047  cd dockerfiles
+ 1048  ls -l
+ 1049  cd ..
+ 1050  mv jdk-17_linux-x64_bin.deb ./dockerfiles
+ 1051  ls -l
+ 1052  ls dockerfiles -l
+ 1053  cd dockerfiles
+ 1054  nano Dockerfile
+ 1055  ls -l
+ 1056  sudo docker build -t geotest .
+ 1057  nano Dockerfile
+ 1058  sudo docker build -t geotest .
+ 1059  cd ..
+ 1060  ls -l
+ 1061  history
+ 1062  cd dockerfiles
+ 1063  nano Dockerfile
+ 1064  sudo docker build -t geotest .
+ 1065  history
+ 1066  nano Dockerfile
+ 1067  sudo docker build -t geotest .
+ 1068  nano Dockerfile
+ 1069  sudo docker build -t geotest .
+ 1070  who
+ 1071  where
+ 1072  nano Dockerfile
+ 1073  sudo docker build -t geotest .
+ 1074  nano Dockerfile
+ 1075  sudo docker build -t geotest .
+ 1076  sudo docker run geotest
+ 1077  nano Dockerfile
+ 1078  sudo docker images
+ 1079  sudo docker build -t geotest2 .
+ 1080  sudo docker images
+ 1081  sudo docker run geotest2
+ 1082  sudo docker images
+ 1083  sudo docker start geotest2
+ 1084  sudo docker images
+ 1085  sudo docker exec -it geotest2 bash
+ 1086  sudo docker exec -it geotest bash
+ 1087  sudo docker start geotest
+ 1088  sudo docker run geotest
+ 1089  sudo docker run geotest2
+ 1090  sudo docker rm 83605d92119d
+ 1091  sudo docker rm geotest2
+ 1092  sudo docker ps -a
+ 1093  clear
+ 1094  sudo docker ps -a
+ 1095  sudo docker rm 482fb5f1260b
+ 1096  sudo docker exec -it dreamy_elgamal bash
+ 1097  sudo docker start dreamy_elgamal
+ 1098  sudo docker ps -a
+ 1099  sudo docker run dreamy_elgamal
+ 1100  nano Dockerfile
+ 1101  sudo docker build -t java11
+ 1102  sudo docker build -t java11 .
+ 1103  sudo docker ps -a
+ 1104  sudo docker images
+ 1105  sudo docker run java11
+ 1106  nano Dockerfile
+ 1107  sudo docker rm a16cd97af157
+ 1108  sudo docker build -t java
+ 1109  sudo docker build -t java .
+ 1110  sudo docker run java
+ 1111  sudo docker ps -a
+ 1112  sudo docker start java
+ 1113  sudo docker start gallant_banach
+ 1114  sudo docker ps -a
+ 1115  sudo docker start gallant_banach bash
+ 1116  nano Dockerfile
+ 1117  sudo docker rm cd0f1027020e
+ 1118  sudo docker stop 29adc9b2549d
+ 1119  sudo docker rm 9aa4671e2c35
+ 1120  sudo docker pl -a
+ 1121  clear
+ 1122  sudo docker ps -a
+ 1123  sudo docker rm 6615a0fadd35
+ 1124  sudo docker rm bb88c48ff842
+ 1125  sudo docker rm c54b4506f98a
+ 1126  sudo docker build -t geotest
+ 1127  sudo docker build --name geotest -t geotest .
+ 1128  sudo docker build -t geotest .
+ 1129  sudo docker run geotest java -version
+ 1130  sudo docker run geotest java -jar /app/Geotest.jar
+ 1131  nano Dockerfile
+ 1132  sudo docker run geotest java -jar /app/GeoTree.jar
+ 1133  nano Dockerfile
+ 1134  sudo docker run geotest java -jar GeoTree.jar
+ 1135  sudo docker run geotest java -jar app/GeoTree.jar
+ 1136  sudo docker run geotest java -jar ./app/GeoTree.jar
+ 1137  sudo docker ps -a
+ 1138  sudo docker run geotest bash
+ 1139  sudo docker ps -a
+ 1140  nano Dockerfile
+ 1141  sudo docker ps -a
+ 1142  sudo docker images
+ 1143  sudo docker -help
+ 1144  clear
+ 1145  sudo docker images
+ 1146  sudo docker rmi java11
+ 1147  sudo docker rmi geotest2
+ 1148  sudo docker rmi java
+ 1149  sudo docker rmi geotest
+ 1150  clear
+ 1151  sudo docker build -t java
+ 1152  sudo docker build -t java .
+ 1153  sudo docker ps -a
+ 1154  clear 
+ 1155  sudo docker run -d --name java-container java
+ 1156  docker exec -it java-container bash
+ 1157  docker exec -it java-container /bin/bash
+ 1158  sudo docker -ps -a
+ 1159  sudo docker ps -a
+ 1160  clear
+ 1161  sudo docker ps -a
+ 1162  sudo docker exec -it java-container /bin/bash
+ 1163  sudo docker ps -a
+ 1164  sudo docker stop java-container
+ 1165  sudo docker ps -a
+ 1166  sudo docker stop cb3e99c19271
+ 1167  sudo docker ps -a
+ 1168  sudo docker ps -al
+ 1169  sudo docker ps -at
+ 1170  sudo docker ps
+ 1171  sudo docker ps -ai
+ 1172  sudo docker ps --help
+ 1173  sudo docker images
+ 1174  clear
+ 1175  nano Dockerfile
+ 1176  sudo docker build -t java11
+ 1177  sudo docker build -t java11 .
+ 1178  sudo docker run -d --name java-test java11
+ 1179  sudo docker exec -it java-test /bin/bash
+ 1180  ls
+ 1181  java -jar GeoTree.jar
+ 1182  nano Dockerfile
+ 1183  sudo docker build -t java .
+ 1184  sudo docker ps -a
+ 1185  sudo docker stop java-test
+ 1186  sudo docker rm 60ceea0bc10f
+ 1187  sudo docker rm 4d4f09b3988e
+ 1188  sudo docker run -d --name java-container java
+ 1189  sudo docker exec -it java-container /bin/bash
+ 1190  sudo docker ps -a
+ 1191  sudo docker stop java-container
+ 1192  sudo docker rm 2aa9f4915a2e
+ 1193  java -version
+ 1194  nano Dockerfile
+ 1195  sudo docker build -t java19
+ 1196  sudo docker build -t java19 .
+ 1197  sudo docker run -d --name java-container java19
+ 1198  sudo docker exec -it java-container /bin/bash
+ 1199  history
+ 1200  clear 
+ 1201  wget https://github.com/ChaganAV/Hello/tree/master/out/artifacts/Hello_jar/Hello_jar.jar
+ 1202  ls
+ 1203  nano Dockerfile
+ 1204  sudo docker build -t hello
+ 1205  sudo docker build -t hello .
+ 1206  sudo docker ps -a
+ 1207  sudo docker ps -ai
+ 1208  sudo docker ps -al
+ 1209  sudo docker ps --help
+ 1210  sudo docker stop e1691b534f9d
+ 1211  sudo docker rmi e1691b534f9d
+ 1212  sudo docker rm e1691b534f9d
+ 1213  sudo docker run -d --name java-hello hello
+ 1214  sudo docker exec -it java-hello /bin/bash
+ 1215  nano Dockerfile
+ 1216  sudo docker ps -a
+ 1217  sudo docker stop 3169ab17f78d
+ 1218  sudo docker build -t java2
+ 1219  sudo docker build -t java2 .
+ 1220  nano Dockerfile
+ 1221  sudo docker build -t alpine .
+ 1222  sudo docker run -d --name java alpine
+ 1223  sudo docker exec -it java /bin/bash
+ 1224  sudo docker ps -a
+ 1225  nano Dockerfile
+ 1226  sudo docker build -t alpine2 .
+ 1227  sudo docker run -d --name java alpine2
+ 1228  sudo docker run -d --name java2 alpine2
+ 1229  sudo docker ps -a
+ 1230  sudo docker start java2
+ 1231  sudo docker ps -a
+ 1232  sudo docker exec -it java2 
+ 1233  sudo docker exec -it java2 java -jar /home/geo.jar
+ 1234  nano Dockerfile
+ 1235  sudo docker build -t alpine3 .
+ 1236  sudo docker run -d --name java3 alpine3
+ 1237  sudo docker ps -a
+ 1238  exit
+ 1239  cd dockerfiles
+ 1240  nano Dockerfile
+ 1241  exit
+ 1242  cd dockerfiles
+ 1243  sudo docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:8.0.31
+ 1244  sudo docker run --name some-mysql2 -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:8.0.31
+ 1245  sudo docker ps -a
+ 1246  clear
+ 1247  sudo docker ps -a
+ 1248  sudo docker start myphp
+ 1249  sudo docker run myphp
+ 1250  sudo docker run --help
+ 1251  sudo docker run --name myphp
+ 1252  sudo docker rm cb3e99c19271
+ 1253  clear
+ 1254  sudo docker run --name myphp -d --link some-mysql2:db -p 8086:80 phpmyadmin/phpmyadmin
+ 1255  sudo docker ps -a
+ 1256  sudo docker stop fc8c27ead7f5
+ 1257  sudo docker stop ab0e3af5ce77
+ 1258  sudo docker rm $(docker ps -a -q) --force
+ 1259  sudo docker rm $(sudo docker ps -a -q) --force
+ 1260  sudo docker ps -a
+ 1261  sudo docker images
+ 1262  sudo docker rmi $(sudo docker images -aq)
+ 1263  sudo docker images
+ 1264  sudo docker rmi $(sudo docker images -aq)
+ 1265  sudo docker rmi $(sudo docker images -aq) --force
+ 1266  sudo docker images
+ 1267  clear
+ 1268  cd ..
+ 1269  mkdir compo
+ 1270  nano
+ 1271  nano myCompo.yaml
+ 1272  sudo docker-compose mv myCompo.yaml compose.yaml
+ 1273  mv myCompo.yaml compose.yaml
+ 1274  ls
+ 1275  mv compose.yaml compo/compose.yaml
+ 1276  ls
+ 1277  cd compo
+ 1278  ls
+ 1279  sudo docker-compose up
+ 1280  mv /compo/compose.yaml compose.yaml
+ 1281  mv compose.yaml ../compose.yaml
+ 1282  ls
+ 1283  cd ..
+ 1284  ls
+ 1285  sudo docker-compose up
+ 1286  sudo docker-compose ps
+ 1287  sudo apt update
+ 1288  sudo apt install docker-compose
+ 1289  clear
+ 1290  mv compose.yaml compo/compose.yaml
+ 1291  cd compo
+ 1292  sudo docker-compose up
+ 1293  nano compose.yaml
+ 1294  sudo docker-compose up
+ 1295  nano compose.yaml
+ 1296  sudo docker-compose up
+ 1297  nano compose.yaml
+ 1298  sudo docker-compose --version
+ 1299  nano compose.yaml
+ 1300  sudo docker-compose up
+ 1301  nano compose.yaml
+ 1302  sudo docker-compose up
+ 1303  nano compose.yaml
+ 1304  sudo docker-compose up
+ 1305  nano compose.yaml
+ 1306  sudo docker-compose up
+ 1307  nano compose.yaml
+ 1308  sudo docker-compose up
+ 1309  nano compose.yaml
+ 1310  sudo docker-compose up
+ 1311  nano compose.yaml
+ 1312  sudo docker-compose up
+ 1313  nano compose.yaml
+ 1314  sudo docker-compose up
+ 1315  nano compose.yaml
+ 1316  sudo docker-compose up
+ 1317  nano compose.yaml
+ 1318  sudo docker-compose up
+ 1319  nano compose.yaml
+ 1320  sudo docker-compose up
+ 1321  nano compose.yaml
+ 1322  sudo docker-compose up
+ 1323  nano compose.yaml
+ 1324  sudo docker-compose up
+ 1325  sudo docker-compose up -d
+ 1326  sudo docker images
+ 1327  sudo docker ps -a
+ 1328  nano compose.yaml
+ 1329  exit
+ 1330  ls -l
+ 1331  cd compo
+ 1332  ls
+ 1333  cd ..
+ 1334  mkdir mysqldir
+ 1335  cd mysqldir
+ 1336  nano compose.yaml
+ 1337  sudo docker ps -a
+ 1338  sudo docker-compose up
+ 1339  nano compose.yaml
+ 1340  sudo docker ps -a
+ 1341  sudo docker images
+ 1342  sudo docker rmi mysql
+ 1343  sudo docker rmi phpmyadmin
+ 1344  sudo docker images
+ 1345  clear
+ 1346  sudo docker-compose up
+ 1347  sudo docker ps -a
+ 1348  nano compose.yaml
+ 1349  sudo docker-compose up
+ 1350  sudo docker ps -a
+ 1351  nano compose.yaml
+ 1352  sudo docker-compose up
+ 1353  exit
+ 1354  sudo docker run --rm hello-world
+ 1355  sudo docker rnu -d -p 80:80 docker/gettingstarted
+ 1356  sudo docker run -d -p 80:80 docker/gettingstarted
+ 1357  exit
+ 1358  pwd
+ 1359  exit
+ 1360  mkdir HW
+ 1361  ls -l
+ 1362  cd HW
+ 1363  cat Pets
+ 1364  git init
+ 1365  cat --help
+ 1366  echo "Собака" cat > Pets.txt
+ 1367  cat Pets.txt
+ 1368  cat >> Pets.txt
+ 1369  cat Pets.txt
+ 1370  cat > Pets.txt
+ 1371  cat Pets.txt
+ 1372  cat > Pets.txt
+ 1373  cat Pets.txt
+ 1374  cat > PackAnimals.txt
+ 1375  git add .
+ 1376  git status
+ 1377  git commit -m "files"
+ 1378  git config --global user.email jwchaganav@gmail.com
+ 1379  git config --global user.name ChaganAV
+ 1380  git commit -m "files"
+ 1381  git config --global user.email jwchaganav@gmail.com
+ 1382  git config --global user.name Alexandr Chagan
+ 1383  git commit -m "files"
+ 1384  git status
+ 1385  git remote add origin https://github.com/ChaganAV/ControlHW.git
+ 1386  git push -u origin master
+ 1387  git config --global user.name ChaganAV
+ 1388  git push -u origin master
+ 1389  git config --global user.name "Alexander Chagan"
+ 1390  git config --global user.name "Alexandr Chagan"
+ 1391  git remote 
+ 1392  git remote -v
+ 1393  git push -u origin
+ 1394  git push -u origin master
+ 1395  git gonfig --global user.name
+ 1396  git config --global user.name
+ 1397  git config --global user.name Alexandr
+ 1398  git config --global user.name
+ 1399  git push -u origin master
+ 1400  git pull --help
+ 1401  git fetch https://github.com/ChaganAV/ControlHW.git
+ 1402  git branch
+ 1403  ls -l
+ 1404  cat --help
+ 1405  echo Pets.txt
+ 1406  cat Pets.txt
+ 1407  cat Pets.txt > HumanFriends.txt
+ 1408  ls -l
+ 1409  cat HumanFriends.txt
+ 1410  cat PackAnimals.txt >> HumanFrends.txt
+ 1411  cat HumanFriends.txt
+ 1412  cat Pets.txt > HumanFrends.txt
+ 1413  cat HumanFriends.txt
+ 1414  cat PackAnimals.txt
+ 1415  cat PackAnimals.txt > HumanFrends.txt
+ 1416  cat HumanFriends.txt
+ 1417  cat PackAnimals.txt >> HumanFrends.txt
+ 1418  cat HumanFriends.txt
+ 1419  ls -l
+ 1420  cat PackAnimals.txt >> HumanFriends.txt
+ 1421  cat HumanFriends.txt
+ 1422  rm HumanFrends.txt
+ 1423  ls -l
+ 1424  git add .
+ 1425  git commit -m "друзья человека"
+ 1426  git push -u origin main
+ 1427  git pull
+ 1428  git push -u origin main
+ 1429  git push -u origin master
+ 1430  history > history.txt
