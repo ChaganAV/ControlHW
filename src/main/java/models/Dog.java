@@ -3,14 +3,16 @@ package models;
 import java.time.LocalDate;
 
 public class Dog extends Pets{
+    private int id;
     private String nickname;
     private LocalDate birthday;
-    public Dog(String kindname, String name) {
-        super(kindname, name);
+
+    public Dog() {
+        super("Животное", "Домашнее");
     }
 
-    public Dog(String kindname, String name, String nickname) {
-        super(kindname, name);
+    public Dog( String nickname) {
+        super("Животное", "Домашнее");
         this.nickname = nickname;
     }
 
@@ -18,6 +20,14 @@ public class Dog extends Pets{
         super(kindname, name);
         this.nickname = nickname;
         this.birthday = birthday;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public LocalDate getBirthday() {
@@ -34,5 +44,10 @@ public class Dog extends Pets{
 
     public void setNickname(String nickname) {
         this.nickname = nickname;
+    }
+
+    @Override
+    public String toString() {
+        return "Dog: [" + id + "\t" + nickname + birthday + "]";
     }
 }
