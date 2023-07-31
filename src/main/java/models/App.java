@@ -23,7 +23,10 @@ public class App {
         statement.close();
         connection.close();
         while (resultSet.next()){
-            Dog dog = new Dog()
+            Dog dog = new Dog();
+            dog.setId(resultSet.getInt("id"));
+            dog.setNickname(resultSet.getString("nickname"));
+            dog.setBirthday(resultSet.getDate("birthday").toLocalDate());
         }
     }
 }
