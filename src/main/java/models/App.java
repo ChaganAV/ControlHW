@@ -17,7 +17,7 @@ public class App {
         connection = db.getConnection();
     }
     public void selectDogs() throws SQLException {
-        String query = "select * from humanfiends.dogs";
+        String query = "select * from humanfriends.dogs";
         Statement statement = connection.createStatement();
         ResultSet resultSet = statement.executeQuery(query);
         statement.close();
@@ -27,6 +27,7 @@ public class App {
             dog.setId(resultSet.getInt("id"));
             dog.setNickname(resultSet.getString("nickname"));
             dog.setBirthday(resultSet.getDate("birthday").toLocalDate());
+            System.out.println(dog);
         }
     }
 }
