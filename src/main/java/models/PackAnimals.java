@@ -1,6 +1,10 @@
-public class Pets extends Animals{
+package models;
+
+import models.Animals;
+
+public class PackAnimals extends Animals {
     private String name;
-    public Pets(String kindname, String name) {
+    public PackAnimals(String kindname, String name) {
         super(kindname);
         this.name = name;
     }

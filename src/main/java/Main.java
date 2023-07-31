@@ -6,8 +6,7 @@ public class Main {
     private static final String PASSWORD = "admin";
     private static final String URL = "jdbc:mysql://192.168.9.41:3306/mysql?userSSL=false";
     public static void main(String[] args) throws SQLException {
-        System.out.println("Hello");
-        //Connection connection = null;
+        System.out.println("Cистема учета для питомника");
         Driver driver;
         try{
             driver = new com.mysql.jdbc.Driver();

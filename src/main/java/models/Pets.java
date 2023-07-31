@@ -1,6 +1,12 @@
-public class PackAnimals extends Animals{
+package models;
+
+import models.Animals;
+
+import java.time.LocalDate;
+
+public class Pets extends Animals {
     private String name;
-    public PackAnimals(String kindname, String name) {
+    public Pets(String kindname, String name) {
         super(kindname);
         this.name = name;
     }
