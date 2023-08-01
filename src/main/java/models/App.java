@@ -20,8 +20,7 @@ public class App {
         String query = "select * from humanfriends.dogs";
         Statement statement = connection.createStatement();
         ResultSet resultSet = statement.executeQuery(query);
-        statement.close();
-        connection.close();
+
         while (resultSet.next()){
             Dog dog = new Dog();
             dog.setId(resultSet.getInt("id"));
@@ -29,5 +28,7 @@ public class App {
             dog.setBirthday(resultSet.getDate("birthday").toLocalDate());
             System.out.println(dog);
         }
+        statement.close();
+        connection.close();
     }
 }
