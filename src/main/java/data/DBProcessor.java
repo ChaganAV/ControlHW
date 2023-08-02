@@ -6,9 +6,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBProcessor {
-    private static final String USERNAME = "chagan";
-    private static final String PASSWORD = "admin";
-    private static final String URL = "jdbc:mysql://192.168.9.41:3306/mysql?userSSL=false";
+    private final String USERNAME = "chagan";
+    private final String PASSWORD = "admin";
+    private final String URL = "jdbc:mysql://192.168.9.41:3306/mysql?userSSL=false";
     private Connection connection;
     Driver driver;
     public DBProcessor() throws SQLException {
